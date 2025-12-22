@@ -377,3 +377,33 @@ button.btn-block:hover {
         padding: 25px 15px;
     }
 }
+/* =====================================
+   PAGE CONTACTOS
+===================================== */
+.page-contactos {
+    padding-top: 90px; /* Igual ao home e loja */
+}
+
+.contactos-header {
+    background-color: var(--cinza-claro);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contactos-header h1 {
+    color: var(--preto);
+    margin-bottom: 15px;
+}
+
+.contactos-header .lead {
+    color: var(--cinza-texto);
+    max-width: 850px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .contactos-header {
+        padding: 40px 15px;
+    }
+}
+
