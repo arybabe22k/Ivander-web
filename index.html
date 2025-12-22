@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ivander Solutions | Solucionando vidas</title>
+
+    <meta name="description" content="Ivander Solutions - Venda de celulares originais, smartphones, acessórios e assistência técnica especializada na Matola.">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/Ivander.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+        <a class="navbar-brand font-weight-bold text-primary" href="Home.html">
+            Ivander Solutions
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-primary" href="Home.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="Loja.html">Loja</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="Servicos.html">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="Contactos.html">Contactos</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link text-primary" href="Sobre.html">Sobre</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- CAROUSEL -->
+<div id="carouselHome" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselHome" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselHome" data-slide-to="1"></li>
+        <li data-target="#carouselHome" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+
+        <div class="carousel-item active">
+            <img src="Imagens/carousel/Cell.jpg" class="d-block w-100" alt="Venda de celulares">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Celulares Originais</h5>
+                <p>Qualidade, garantia e confiança</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="Imagens/carousel/Assis.jpg" class="d-block w-100" alt="Smartphones modernos">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Últimos Lançamentos</h5>
+                <p>Samsung, iPhone, Tecno, Infinix e Xiaomi</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="Imagens/carousel/Last.jpg" class="d-block w-100" alt="Assistência técnica">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Assistência Técnica</h5>
+                <p>Reparação rápida e garantida</p>
+            </div>
+        </div>
+
+    </div>
+
+    <a class="carousel-control-prev" href="#carouselHome" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselHome" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+
+<!-- APRESENTAÇÃO -->
+<section class="container my-5">
+    <div class="text-center">
+        <h1>O seu próximo smartphone está aqui.</h1>
+        <p class="lead">
+            A Ivander Solutions é especializada na venda de celulares originais,
+            acessórios e assistência técnica, oferecendo os melhores preços na Matola.
+        </p>
+    </div>
+
+    <div class="row text-center mt-4">
+        <div class="col-md-4">
+            <h4>Celulares</h4>
+            <p>
+                Smartphones Android e iPhone, novos, originais e com garantia.
+            </p>
+        </div>
+
+        <div class="col-md-4">
+            <h4>Acessórios</h4>
+            <p>
+                Capas, películas, carregadores, fones, power banks e muito mais.
+            </p>
+        </div>
+
+        <div class="col-md-4">
+            <h4>Assistência Técnica</h4>
+            <p>
+                Troca de ecrã, bateria, software e manutenção especializada.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- FORMULÁRIO DE COTAÇÃO -->
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="text-center mb-4">
+            <h2>Solicitar Cotação de Celular</h2>
+            <p>Informe o modelo pretendido e entraremos em contacto</p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input type="text" class="form-control" placeholder="Seu nome" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="Seu email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Mensagem</label>
+                        <textarea class="form-control" rows="4"
+                        placeholder="Ex: Samsung A15, iPhone 11, Tecno Spark 20"
+                        required></textarea>
+                    </div>
+
+                    <button class="btn btn-primary btn-block">
+                        Enviar Solicitação
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer bg-verde-principal text-white pt-5">
+    <div class="container">
+        <div class="row">
+
+            <!-- Sobre a Empresa -->
+            <div class="col-md-4 mb-4">
+                <h5 class="footer-title">Ivander Solutions</h5>
+                <p>Especializada na venda de celulares originais, acessórios e assistência técnica na Matola.</p>
+                <p>Garantia, qualidade e confiança nos nossos produtos.</p>
+            </div>
+
+            <!-- Contactos -->
+            <div class="col-md-4 mb-4">
+                <h5 class="footer-title">Contactos</h5>
+                <p>📍 Maputo - Versalhes, em frente à Escola Primária BEA-BA</p>
+                <p>📞 +258 870520693</p>
+                <p>✉️ contato@ivandersolutions.co.mz</p>
+            </div>
+
+            <!-- Links Úteis -->
+            <div class="col-md-4 mb-4">
+                <h5 class="footer-title">Links Úteis</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="Loja.html">Loja</a></li>
+                    <li><a href="Servicos.html">Serviços</a></li>
+                    <li><a href="Contactos.html">Contactos</a></li>
+                    <li><a href="Sobre.html">Sobre</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <hr class="border-light">
+        <p class="text-center mb-0">&copy; 2025 Ivander Solutions | Solucionando vidas. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</body>
+</html>
