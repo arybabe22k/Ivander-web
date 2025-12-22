@@ -1,5 +1,11 @@
 const products = [
+    // iPhone X
+    { brand: 'iphone', name: 'iPhone X', price: 28000, image: 'Imagens/produtos/ix.png' },
+    { brand: 'iphone', name: 'iPhone Xs', price: 30000, image: 'Imagens/produtos/ixs.png' },
+    { brand: 'iphone', name: 'iPhone Xs Max', price: 33000, image: 'Imagens/produtos/ixsmax.png' },
+    
     // iPhone 11
+    { brand: 'iphone', name: 'iPhone XR', price: 29000, image: 'Imagens/produtos/xr.png' },
     { brand: 'iphone', name: 'iPhone 11', price: 30000, image: 'Imagens/produtos/i11.png' },
     { brand: 'iphone', name: 'iPhone 11 Pro', price: 35000, image: 'Imagens/produtos/i11pro.png' },
     { brand: 'iphone', name: 'iPhone 11 Pro Max', price: 40000, image: 'Imagens/produtos/i11promax.png' },
@@ -76,3 +82,4 @@ renderStore();
 function filterBrand(brand) {
     renderStore(brand);
 }
+
