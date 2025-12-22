@@ -18,7 +18,7 @@ const products = [
     // iPhone 13
     { brand: 'iphone', name: 'iPhone 13', price: 40000, image: 'Imagens/produtos/iPhone/iP-13.jpg' },
     { brand: 'iphone', name: 'iPhone 13 Pro', price: 45000, image: 'Imagens/produtos/iPhone/iP-13 Pro.jpg' },
-    { brand: 'iphone', name: 'iPhone 13 Pro Max', price: 50000, image: 'Imagens/produtos/iPhone/iP-13 Pro Max.jpg' },
+    { brand: 'iphone', name: 'iPhone 13 Pro Max', price: 50000, image: 'Imagens/produtos/iPhone/iP-13 Pro Max.png' },
 
     // iPhone 14
     { brand: 'iphone', name: 'iPhone 14', price: 45000, image: 'Imagens/produtos/i14.png' },
@@ -82,6 +82,7 @@ renderStore();
 function filterBrand(brand) {
     renderStore(brand);
 }
+
 
 
 
