@@ -1,5 +1,5 @@
 const products = [
-     // iPhone X
+// iPhone X
     { brand: 'iphone', name: 'iPhone X', price: 28000, image: 'Imagens/produtos/iPhone/iP-X.jpg' },
     { brand: 'iphone', name: 'iPhone Xs', price: 30000, image: 'Imagens/produtos/iPhone/iP-Xs.jpg' },
     { brand: 'iphone', name: 'iPhone Xs Max', price: 33000, image: 'Imagens/produtos/iPhone/iP-Xs Max.png' },
@@ -82,5 +82,6 @@ renderStore();
 function filterBrand(brand) {
     renderStore(brand);
 }
+
 
 
