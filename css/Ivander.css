@@ -407,3 +407,276 @@ button.btn-block:hover {
     }
 }
 
+/* ==========================
+   LOJA - CARDS DE PRODUTOS
+   ========================== */
+.loja-card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 2rem;
+}
+
+.loja-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.loja-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* ==========================
+   CARDS BODY
+   ========================== */
+.loja-card .card-body {
+    text-align: center;
+}
+
+.loja-card .card-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.loja-card .card-text {
+    color: var(--cinza-texto);
+    font-size: 0.95rem;
+}
+
+.loja-card .card-price {
+    font-weight: 700;
+    color: var(--verde-principal);
+    margin-bottom: 0.8rem;
+}
+
+/* ==========================
+   BOTÕES DA LOJA
+   ========================== */
+.loja-card .btn {
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.loja-card .btn-success {
+    background-color: var(--verde-principal);
+    border-color: var(--verde-principal);
+}
+
+.loja-card .btn-success:hover {
+    background-color: var(--verde-escuro);
+    border-color: var(--verde-escuro);
+}
+
+/* ==========================
+   FILTRO DE MARCAS
+   ========================== */
+#brand-filters {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#brand-filters button {
+    background-color: #fff;
+    color: var(--verde-principal);
+    border: 1px solid var(--verde-principal);
+    border-radius: 5px;
+    margin: 0 5px 10px 5px;
+    padding: 0.4rem 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#brand-filters button:hover,
+#brand-filters button.active {
+    background-color: var(--verde-principal);
+    color: #fff;
+}
+
+/* ==========================
+   ABAS DE GERAÇÃO DE IPHONE
+   ========================== */
+#iphone-tabs {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#iphone-tabs button {
+    background-color: #fff;
+    color: var(--verde-principal);
+    border: 1px solid var(--verde-principal);
+    border-radius: 5px;
+    margin: 0 5px 10px 5px;
+    padding: 0.4rem 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#iphone-tabs button:hover,
+#iphone-tabs button.active {
+    background-color: var(--verde-principal);
+    color: #fff;
+}
+
+/* ==========================
+   RESPONSIVIDADE
+   ========================== */
+@media (max-width: 768px) {
+    .loja-card img {
+        height: 180px;
+    }
+
+    #brand-filters button,
+    #iphone-tabs button {
+        font-size: 0.85rem;
+        padding: 0.3rem 0.6rem;
+    }
+}
+/* =====================================
+   PAGE SOBRE
+===================================== */
+.page-sobre {
+    padding-top: 90px; /* alinhado com home, loja e contactos */
+}
+
+/* =====================================
+   HEADER / INTRODUÇÃO
+===================================== */
+.sobre-header {
+    background-color: var(--cinza-claro);
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.sobre-header h1 {
+    color: var(--preto);
+    margin-bottom: 15px;
+}
+
+.sobre-header .lead {
+    color: var(--cinza-texto);
+    max-width: 850px;
+    margin: auto;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .sobre-header {
+        padding: 45px 15px;
+    }
+}
+
+/* =====================================
+   CONTEÚDO PRINCIPAL
+===================================== */
+.sobre-conteudo {
+    padding: 70px 15px;
+}
+
+.sobre-conteudo h2 {
+    color: var(--preto);
+    margin-bottom: 20px;
+}
+
+.sobre-conteudo p {
+    color: var(--cinza-texto);
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+/* =====================================
+   BLOCO MISSÃO, VISÃO, VALORES
+===================================== */
+.sobre-card {
+    border: none;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 20px rgba(47,168,119,0.25);
+    padding: 35px 25px;
+    text-align: center;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sobre-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(47,168,119,0.35);
+}
+
+.sobre-card h4 {
+    color: var(--verde-principal);
+    margin-bottom: 15px;
+}
+
+.sobre-card p {
+    color: var(--cinza-texto);
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+/* Ícones opcionais */
+.sobre-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px auto;
+    background-color: var(--verde-principal);
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+/* =====================================
+   SECÇÃO DIFERENCIAIS
+===================================== */
+.sobre-diferenciais {
+    background-color: var(--cinza-claro);
+    padding: 70px 15px;
+}
+
+.sobre-diferenciais h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sobre-diferenciais ul {
+    max-width: 800px;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+}
+
+.sobre-diferenciais li {
+    background: #ffffff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid var(--verde-principal);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    color: var(--cinza-texto);
+}
+
+/* =====================================
+   CALL TO ACTION
+===================================== */
+.sobre-cta {
+    text-align: center;
+    padding: 60px 15px;
+}
+
+.sobre-cta h3 {
+    margin-bottom: 20px;
+    color: var(--preto);
+}
+
+.sobre-cta .btn-comprar {
+    font-size: 1rem;
+    padding: 12px 30px;
+}
